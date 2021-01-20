@@ -11,7 +11,7 @@ const Card = ({ card, feedback, index, onClick }) => (
       </span>
     </div>
   )
-  
+    
   Card.propTypes = {
     card: PropTypes.string.isRequired,
     feedback: PropTypes.oneOf([
